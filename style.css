@@ -1,0 +1,104 @@
+/*
+    colors
+    bg #000
+    orange #ff9501
+    grey #a6a6a6
+    white #fdfdfd
+*/
+
+.calc{
+    margin: 50px auto;
+    height: 500px;
+    width: 300px;
+    background-color: #000;
+    border-radius: 20px;
+    color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 18px;
+    box-shadow: 4px 4px 4px #4f4f4f;
+    font-size: 1.3rem;
+}
+
+.calc-screen{
+    display: flex;
+    justify-content: end;
+    margin-top: 35px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.calc-screen p{
+    font-size: 4rem;
+    margin: 0;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.btn{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: #4f4f4f;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.btn:hover{
+    background-color: #8f8f8f;
+    color: #e8e8e8;
+}
+
+.btn:active{
+    background-color: #fdfdfd;
+    color: #000;
+    transition: 0s;
+}
+
+.btnGrey{
+    background-color: #8f8f8f;
+}
+
+.btnGrey:hover{
+    background-color: #bcbcbc;
+}
+
+.btnZero{
+    width: 145px;
+    border-radius: 50px;
+}
+
+.operator{
+    background-color: #ff9501;
+}
+
+.operator:hover{
+    background-color: #fcbb5f;
+}
+
+.operator:active{
+    background-color: #fdfdfd;
+    transition: 0s;
+}
